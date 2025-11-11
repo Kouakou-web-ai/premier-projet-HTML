@@ -1,101 +1,88 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
-</head>
-<body>
-  <!-- En-tête -->
-  <header>
-    <h1>Bienvenue sur mon Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="#accueil">Accueil</a></li>
-        <li><a href="#apropos">À propos</a></li>
-        <li><a href="#experience">Expérience professionnelle</a></li>
-        <li><a href="#cv">CV</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  <!-- Section Accueil -->
-  <section id="accueil">
-    <h2>Accueil</h2>
-    <p>Bonjour, je suis <strong>Ismaël Mondésire</strong>, développeur web junior passionné par le design et le code.</p>
-    <video controls width="400">
-      <source src="video.mp4" type="video/mp4">
-      Votre navigateur ne supporte pas la vidéo.
-    </video>
-  </section>
+<head>
+
+  <!--les balises indispensables-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/*">
+
+  <!-- les balise head facultatives mais importantes pour le seo (réferencement naturel)-->
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="developer" content="kouakou Mondésire">
+</head>
+
+<body>
+
+    <!--barre de nav-->
+  <nav>
+    
+    <div>
+
+      <!--l'ajout du logo-->
+      <img src="images/logo.jpg" alt="logo" width="80px">
+
+    </div>
+
+    <!--les menus-->
+    <div>
+      <a href="#">Acceuil</a>
+      <a href="#apropos">A propos</a>
+      <a href="#expérienceprofessionnelle">experience professionnelle</a>
+      <a href="#CV">CV</a>
+      <a href="#contact">Contactez nous</a>
+    </div>
+
+    </div>
+  </nav>
+
+  <main>
+
+    <!--section hero-->
+    <section>
+      <div>
+        <h1>Développeur web créatif au service de vos idées</h1>
+        <p> Découvrez mes projets, mes compétences et ma vision du web</p>
+        <a href="#acceuil"></a>
+      </div>
+    </section>
+  </main>
 
   <!-- Section À propos -->
-  <section id="apropos">
-    <h2>À propos</h2>
-    <p>J'aime créer des sites modernes, clairs et accessibles. Mon objectif est de devenir développeur full-stack.</p>
-    <ul>
-      <li>Nom : Kouakou Atsé Yatchitchébè Ismaël Mondésire</li>
-      <li>Profession : Développeur Web Junior</li>
-      <li>Compétences : Débutant en HTML, CSS, JavaScript</li>
-    </ul>
+  <section>
+    <a href="#apropos">A propos</a>
+    <p>Regardez la vidéo</p>
+
+  <!--Ajout de vidéo locale-->
+   <video src="video/video.mp4" controls width="200px"></video>
   </section>
 
   <!-- Section Expérience professionnelle -->
-  <section id="experience">
-    <h2>Expérience professionnelle</h2>
-    <table border="1" cellpadding="5">
-      <thead>
-        <tr>
-          <th>Année</th>
-          <th>entreprise</th>
-          <th>Poste</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
-      </tbody>
-    </table>
+  <section>
+    
+    <a href="#expérienceprofessionnelle">Expérience professionnelle</a>
+   <p>En formation chez Gomycode</p>
+    <audio src="audio/audio.mp3" controls></audio>
   </section>
 
   <!-- Section CV -->
-  <section id="cv">
-    <h2>Mon CV</h2>
-    <p>Vous pouvez télécharger mon CV en cliquant ci-dessous :</p>
-    <a href="cv.docx" download>Télécharger le CV</a>
-    <audio controls>
-      <source src="audio.m4a" type="audio/mpeg">
-      Votre navigateur ne supporte pas l’audio.
-    </audio>
+  <section>
+    <a href="#CV">CV</a>
+    <p>Mon CV </p>
+   
+    
   </section>
 
   <!-- Section Contact -->
-  <section id="contact">
-    <h2>Contactez-moi</h2>
-    <form>
-<label for="nom">Nom :</label><br>
-      <input type="text" id="nom" name="nom" required><br><br>
-
-      <label for="email">Email :</label><br>
-      <input type="email" id="email" name="email" required><br><br>
-
-      <label for="message">Message :</label><br>
-      <textarea id="message" name="message" rows="4" required></textarea><br><br>
-
-      <button type="submit">Envoyer</button>
-    </form>
+  <section>
+    <a href="#contact">Contact</a>
+    +225 0172649110
   </section>
 
   <!-- Pied de page -->
   <footer>
-    <p>&copy; 2025 - Ismaël Mondésire | <a href="#accueil">Retour en haut</a></p>
+    <p>&copy; 2025 - Ismaël Mondésire </p>
   </footer>
